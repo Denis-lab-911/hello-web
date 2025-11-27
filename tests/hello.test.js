@@ -10,10 +10,10 @@ describe("Vérification de la page index.html", () => {
     document.body.innerHTML = html;
   });
 
-  test("le <h1> doit être 'Hello World depuis gitHub Codespaces !'", () => {
+  test("le <h1> doit être 'Hello World depuis GitHub Codespaces !'", () => {
     const h1 = document.querySelector('h1');
     expect(h1).not.toBeNull();
-    expect(h1.textContent.trim()).toBe('Hello World depuis gitHub Codespaces !');
+    expect(h1.textContent.trim()).toBe('Hello World depuis GitHub Codespaces !');
   });
 
   test("l'élément #current-date doit exister", () => {
