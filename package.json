@@ -1,7 +1,6 @@
 {
-  "name": "hello-world-web",
+  "name": "hello-web",
   "version": "1.0.0",
-  "description": "Projet Hello World avec tests automatiques et CI GitHub Actions",
   "scripts": {
     "test": "jest"
   },
@@ -10,5 +9,5 @@
   },
   "jest": {
     "testEnvironment": "jsdom"
-  },
+  }
 }
