@@ -6,7 +6,17 @@
   </head>
   <body>
     <h1>Hello World depuis gitHub Codespaces !</h1>
-    Ceci est une page de test !!! Nouveau test
+    <p>Ceci est une page de test !!! Nouveau test</p>
+
+    <!-- Zone où la date sera affichée -->
+    <p id="current-date"></p>
+
+    <!-- Script pour afficher la date du jour -->
+    <script>
+      const dateElement = document.getElementById('current-date');
+      const now = new Date();
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+      dateElement.textContent = `Aujourd'hui : ${now.toLocaleDateString('fr-FR', options)}`;
+    </script>
   </body>
 </html>
-
