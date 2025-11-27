@@ -1,9 +1,9 @@
 {
   "name": "hello-web",
   "version": "1.0.0",
-  "description": "Projet Hello World avec tests automatisés et CI/CD",
+  "description": "Hello World avec tests et CI/CD",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "jest": "^29.7.0",
