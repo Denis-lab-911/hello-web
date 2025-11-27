@@ -1,0 +1,11 @@
+{
+  "name": "hello-world-web",
+  "version": "1.0.0",
+  "description": "Projet Hello World avec tests automatiques et CI GitHub Actions",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
